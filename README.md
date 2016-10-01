@@ -1,9 +1,4 @@
-# Scripts:
-* [glassrooms](#glassrooms)
-* [defolder](#defolder)
-
-
-## Glassrooms
+# Glassrooms
 ### What is it?
 The Glassrooms script is an alternative to using the dirty dirty scss glassrooms webpage.
 It allows you to view, make and cancel bookings all from you shell!
@@ -31,9 +26,3 @@ alias cancel='<path_to_script>/glassrooms.sh cancel'
 
 ### Bugs
 Definitely doesnt work on Arch, other than that  ¯\\_(ツ)_/¯
-
-## Defolder
-### What is it?
-You ever download a tv show only to find that some animal put every bloody episode is in its own folder?
-
-Well this script takes care of that by crawling through sub directories and copying them to a destination directory
