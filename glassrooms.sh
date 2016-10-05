@@ -175,7 +175,9 @@ function book {
     argss=("$@")
     room=${argss[@]:(-1)}
     start=${argss[@]:(-2):1}
+    start=$((start+1))
     end=${argss[@]:(-3):1}
+    end=$((end+1))
     day=$DAY
     month=$MONTH
     arg_len="${#argss[@]}"
